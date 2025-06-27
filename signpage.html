@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signpage.css">
+    <style>
+        body{
+              display: flex;
+              justify-content: center; 
+              align-items: center;     
+               height: 100vh;          
+               margin: 0;
+      
+        }
+
+        .outerbox{
+            border:5px solid black;
+            margin:200px;
+            height:500px;
+            width:500px;
+            background-image: url('/back.gym.webp');
+            background-size: 500px 500px;
+            color: yellow;
+            
+           
+        }
+        .signup-body{
+             display: flex;
+              justify-content: center; 
+              align-items: center; 
+        }
+        .signup-header{
+            display: flex;
+              justify-content: center; 
+              align-items: center; 
+              flex-direction: column; 
+              
+              
+        }
+        
+    </style>
+
+</head>
+
+<body>
+   <div class="outerbox">
+    
+    <div class="innerbox">
+       <header class="signup-header">
+        <h1>Signup</h1>
+        <p class>It just takes 30 secounds</p>
+       </header>
+       <main class="signup-body">
+        <form action="action.php">
+            <p>
+                <label for="fullname">Full Name</label>
+                <input type="text"/>
+            </p>
+            <p>
+                <label for="Email"> email Id</label>
+                <input type="text"/>
+            </p>
+
+            <p>
+                <label for="password">your new password</label>
+                <input type="number"/>
+            </p>
+            <p>
+                <label for="10">
+                    <input type="submit" value="Submit" id="10"/>
+                </label>
+            </p>
+
+            <footer>
+                <div>Already have Account<a href="%">Login</a></div>
+            </footer>
+
+        </form>
+
+       </main>
+    </div>
+   </div>
+  
+
+</body>
+
+</html>
