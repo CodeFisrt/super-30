@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(198, 245, 245);
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+}
+
+.main img {
+    height: 550px;
+    margin: 65px 0px 0px 0px;
+    border-radius: 20px 0px 0px 20px;
+
+}
+
+.regi p {
+    color: #8a8a90;
+}
+
+.regi {
+    background-color: aliceblue;
+    border-radius: 0px 20px 20px 0px;
+    padding: 50px 65px 0px 65px;
+    justify-content: center;
+    margin: 65px -110px 0px 0px;
+
+
+}
+
+.form-info {
+    position: relative;
+    width: 360px;
+    margin: 30px 0;
+
+
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.form {
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.form-info1 {
+    /* padding: 0 0px 0 10px; */
+    margin-right: 10px;
+    background: transparent;
+    border-bottom: 1px solid #000007;
+    height: 50%;
+    width: 200px;
+    outline: none;
+}
+
+.form-info1 input {
+    border: none;
+    background-color: transparent;
+    font-size: 1.2em;
+    border: none;
+    outline: none;
+}
+
+.form-info2 {
+
+    /* padding: 0 0 0 10px; */
+    background: transparent;
+    border-bottom: 1px solid #000007;
+}
+
+.form-info2 input {
+    border: none;
+    background-color: transparent;
+    font-size: 1.2em;
+    border: none;
+    outline: none;
+}
+
+.form-info input {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    padding: 0 200px 0 10px;
+    border-bottom: 1px solid #000007;
+}
+
+.regi button {
+    background-color: rgb(105, 182, 223);
+    border: none;
+    padding: 10px 70px;
+    margin-right: 20px;
+    border-radius: 15px;
+
+}
+
+footer {
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+    color: #8a8a90;
+}

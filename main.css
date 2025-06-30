@@ -1,0 +1,60 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css');
+
+.box-1 {
+    /* background-color: red; */
+    height: 300px;
+    width: 300px;
+    border: 1px solid red;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+.child-box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.fixed {
+    background: green;
+    font-size: 40px;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+}
+.sticky {
+    background: green;
+    font-size: 40px;
+    color: #fff;
+    position: sticky;
+    top: 10px;
+}
+i {
+    font-size: 150px;
+    --animate-duration: 0.5s;
+}
+i:hover {
+    color: red;
+}
+.dc-test p {
+    background-color: green;
+    color: #fff;
+}
+.child-test > p {
+    background-color: red;
+    color: #fff;
+}
+.ads-test + p {
+    background-color: yellow;
+}
+.gss-test ~ p {
+    background-color: blue;
+    color:#fff
+}
+.box-test {
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+}
